@@ -3,7 +3,7 @@
 	"id": "kgems",
 	"version": "${version}",
 	"name": "KGems",
-	"description": "This is a mod made by following ",
+	"description": "This is a mod made by following kaupenjoe fabric tutorial",
 	"authors": [
 		"Koala!"
 	],
@@ -11,12 +11,15 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/kgems/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.koala.kgems.KGems"
+		],
+		"client": [
+			"net.koala.kgems.KGemsClient"
 		],
 		"fabric-datagen": [
 			"net.koala.kgems.KGemsDataGenerator"
