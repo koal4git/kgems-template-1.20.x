@@ -2,6 +2,7 @@ package net.koala.kgems;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.koala.kgems.block.ModBlocks;
 import net.koala.kgems.item.ModItemGroups;
 import net.koala.kgems.item.ModItems;
 import org.slf4j.Logger;
@@ -15,7 +16,9 @@ public class KGems implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

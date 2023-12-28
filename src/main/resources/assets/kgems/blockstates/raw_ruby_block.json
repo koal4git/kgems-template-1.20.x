@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kgems:block/raw_ruby_block"
+    }
+  }
+}

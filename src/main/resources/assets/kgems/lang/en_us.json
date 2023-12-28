@@ -2,5 +2,8 @@
   "item.kgems.ruby": "Ruby",
   "item.kgems.raw_ruby": "Raw Ruby",
 
+  "block.kgems.ruby_block": "Ruby Block",
+  "block.kgems.raw_ruby_block": "Raw Ruby Block",
+
   "itemgroup.ruby": "Ruby Group"
 }
