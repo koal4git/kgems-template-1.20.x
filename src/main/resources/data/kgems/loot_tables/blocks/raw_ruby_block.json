@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kgems:ruby_block"
+          "name": "kgems:raw_ruby_block"
         }
       ],
       "rolls": 1.0
