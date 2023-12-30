@@ -12,5 +12,7 @@
 
   "item.kgems.metal_detector": "Metal Detector",
 
+  "block.kgems.sound_block": "Sound Block",
+
   "itemgroup.ruby": "Ruby Group"
 }

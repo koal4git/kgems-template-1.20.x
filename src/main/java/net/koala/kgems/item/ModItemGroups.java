@@ -29,6 +29,7 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModBlocks.END_STONE_RUBY_ORE);
 
                     entries.add(ModItems.METAL_DETECTOR);
+                    entries.add(ModBlocks.SOUND_BLOCK);
                 }).build());
 
     public static void registerItemGroups() {
