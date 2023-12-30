@@ -2,6 +2,7 @@ package net.koala.kgems;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.koala.kgems.block.ModBlocks;
 import net.koala.kgems.item.ModItemGroups;
 import net.koala.kgems.item.ModItems;
@@ -19,6 +20,8 @@ public class KGems implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 
 	}
 }

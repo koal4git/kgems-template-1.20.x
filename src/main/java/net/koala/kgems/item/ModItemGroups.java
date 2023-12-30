@@ -18,6 +18,7 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                 .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                     entries.add(ModItems.RUBY);
                     entries.add(ModItems.RAW_RUBY);
+                    entries.add(ModItems.COAL_BRIQUETTE);
 
                     entries.add(Items.DIAMOND);
 
@@ -30,6 +31,9 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
 
                     entries.add(ModItems.METAL_DETECTOR);
                     entries.add(ModBlocks.SOUND_BLOCK);
+
+                    entries.add(ModItems.TOMATO);
+
                 }).build());
 
     public static void registerItemGroups() {
