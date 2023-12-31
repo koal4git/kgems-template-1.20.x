@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "kgems:raw_ruby_block",
+    "kgems:ruby_block",
+    "kgems:ruby_ore",
+    "kgems:deepslate_ruby_ore",
+    "kgems:nether_ruby_ore",
+    "kgems:end_stone_ruby_ore",
+    "kgems:sound_block"
+  ]
+}

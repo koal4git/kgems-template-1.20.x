@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "kgems:ruby"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "kgems:ruby_pressure_plate"
+  },
+  "show_notification": true
+}

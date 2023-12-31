@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "kgems:ruby"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    "SSS"
+  ],
+  "result": {
+    "item": "kgems:ruby_ore"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+// 1.20.1	2023-12-31T00:08:03.0854728	KGems/Block Loot Tables
+7b6414693381ae3c4a4f80b16c8edf1213e06e54 data\kgems\loot_tables\blocks\nether_ruby_ore.json
+b7c655d839366d47e9cb3f2c95735e748a90966f data\kgems\loot_tables\blocks\ruby_fence.json
+d72e8e8d34c1bdd4967a7914bebd58ec8583566d data\kgems\loot_tables\blocks\ruby_ore.json
+f2951da3b5d257034ffcd51ddc7b2ae1725a0b03 data\kgems\loot_tables\blocks\ruby_slab.json
+94f04e78e582b1672948d296a82b994adf5edd23 data\kgems\loot_tables\blocks\ruby_door.json
+971b153e31e1ffaadee947113b5110bf7c4a5550 data\kgems\loot_tables\blocks\sound_block.json
+4d69d3483e9a40e98a059a3b7a810fffa11460f8 data\kgems\loot_tables\blocks\end_stone_ruby_ore.json
+b6a9b07e574e731884b8237cf8bc41821847ed90 data\kgems\loot_tables\blocks\ruby_trapdoor.json
+28bc4a95a84f5939acb85bde4b388a1c0229639f data\kgems\loot_tables\blocks\ruby_stairs.json
+5ccc717a825b56bba9cefdefb1df5248e8c1188b data\kgems\loot_tables\blocks\ruby_wall.json
+9bdfe22c95c089f049e3f665cdd9206cd8b796c7 data\kgems\loot_tables\blocks\ruby_pressure_plate.json
+5959980718b08c8ca0a3a23cceeb4eda30a7abaf data\kgems\loot_tables\blocks\ruby_button.json
+de776abd11fb0b5c4bae831be13850d9deccf288 data\kgems\loot_tables\blocks\raw_ruby_block.json
+80833c290cc1f21e10a0b3778587e002e7148d5e data\kgems\loot_tables\blocks\deepslate_ruby_ore.json
+e407eed6315c316928b246cd3443bcc7b9b9a63a data\kgems\loot_tables\blocks\ruby_block.json
+82a3625cbf091a46046e74d4a83636e5a1656be7 data\kgems\loot_tables\blocks\ruby_fence_gate.json

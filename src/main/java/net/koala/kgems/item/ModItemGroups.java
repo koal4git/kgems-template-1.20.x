@@ -23,6 +23,16 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(Items.DIAMOND);
 
                     entries.add(ModBlocks.RUBY_BLOCK);
+                    entries.add(ModBlocks.RUBY_BUTTON);
+                    entries.add(ModBlocks.RUBY_DOOR);
+                    entries.add(ModBlocks.RUBY_FENCE);
+                    entries.add(ModBlocks.RUBY_FENCE_GATE);
+                    entries.add(ModBlocks.RUBY_SLAB);
+                    entries.add(ModBlocks.RUBY_STAIRS);
+                    entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                    entries.add(ModBlocks.RUBY_TRAPDOOR);
+                    entries.add(ModBlocks.RUBY_WALL);
+
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     entries.add(ModBlocks.RUBY_ORE);
                     entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
@@ -33,6 +43,7 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModBlocks.SOUND_BLOCK);
 
                     entries.add(ModItems.TOMATO);
+
 
                 }).build());
 

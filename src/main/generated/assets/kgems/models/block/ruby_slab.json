@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "kgems:block/ruby_block",
+    "side": "kgems:block/ruby_block",
+    "top": "kgems:block/ruby_block"
+  }
+}
