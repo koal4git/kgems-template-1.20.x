@@ -23,6 +23,31 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(Items.DIAMOND);
 
                     entries.add(ModBlocks.RUBY_BLOCK);
+
+
+                    entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                    entries.add(ModBlocks.RUBY_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                    entries.add(ModBlocks.NETHER_RUBY_ORE);
+                    entries.add(ModBlocks.END_STONE_RUBY_ORE);
+
+                    entries.add(ModItems.METAL_DETECTOR);
+                    entries.add(ModItems.RUBY_STAFF);
+                    entries.add(ModBlocks.SOUND_BLOCK);
+
+                    entries.add(ModItems.RUBY_PICKAXE);
+                    entries.add(ModItems.RUBY_AXE);
+                    entries.add(ModItems.RUBY_SWORD);
+                    entries.add(ModItems.RUBY_SHOVEL);
+                    entries.add(ModItems.RUBY_HOE);
+
+                    entries.add(ModItems.RUBY_HELMET);
+                    entries.add(ModItems.RUBY_CHESTPLATE);
+                    entries.add(ModItems.RUBY_LEGGINGS);
+                    entries.add(ModItems.RUBY_BOOTS);
+
+                    entries.add(ModItems.TOMATO);
+
                     entries.add(ModBlocks.RUBY_BUTTON);
                     entries.add(ModBlocks.RUBY_DOOR);
                     entries.add(ModBlocks.RUBY_FENCE);
@@ -32,18 +57,6 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
                     entries.add(ModBlocks.RUBY_TRAPDOOR);
                     entries.add(ModBlocks.RUBY_WALL);
-
-                    entries.add(ModBlocks.RAW_RUBY_BLOCK);
-                    entries.add(ModBlocks.RUBY_ORE);
-                    entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
-                    entries.add(ModBlocks.NETHER_RUBY_ORE);
-                    entries.add(ModBlocks.END_STONE_RUBY_ORE);
-
-                    entries.add(ModItems.METAL_DETECTOR);
-                    entries.add(ModBlocks.SOUND_BLOCK);
-
-                    entries.add(ModItems.TOMATO);
-
 
                 }).build());
 

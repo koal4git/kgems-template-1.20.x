@@ -14,7 +14,19 @@
   "item.kgems.coal_briquette":  "Coal Briquette",
 
   "item.kgems.metal_detector": "Metal Detector",
+  "item.kgems.ruby_staff": "Ruby Staff",
   "block.kgems.sound_block": "Sound Block",
+
+  "item.kgems.ruby_pickaxe": "Ruby Pickaxe",
+  "item.kgems.ruby_axe": "Ruby Axe",
+  "item.kgems.ruby_sword": "Ruby Sword",
+  "item.kgems.ruby_shovel": "Ruby Shovel",
+  "item.kgems.ruby_hoe": "Ruby Hoe",
+
+  "item.kgems.ruby_helmet": "Ruby Helmet",
+  "item.kgems.ruby_chestplate": "Ruby Chestplate",
+  "item.kgems.ruby_leggings": "Ruby Leggings",
+  "item.kgems.ruby_boots": "Ruby Boots",
 
   "block.kgems.ruby_stairs": "Ruby Stairs",
   "block.kgems.ruby_slab": "Ruby Slab",
