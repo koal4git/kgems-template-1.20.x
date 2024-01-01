@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kgems:ruby_helmet",
+    "kgems:ruby_chestplate",
+    "kgems:ruby_leggings",
+    "kgems:ruby_boots"
+  ]
+}
