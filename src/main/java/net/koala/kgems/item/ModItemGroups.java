@@ -60,6 +60,8 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModBlocks.RUBY_TRAPDOOR);
                     entries.add(ModBlocks.RUBY_WALL);
 
+                    entries.add(ModBlocks.DAHLIA);
+
                 }).build());
 
     public static void registerItemGroups() {

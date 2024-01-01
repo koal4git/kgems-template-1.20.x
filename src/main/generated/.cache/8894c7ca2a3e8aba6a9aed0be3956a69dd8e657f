@@ -1,7 +1,7 @@
-// 1.20.1	2024-01-01T16:53:03.3065688	KGems/Tags for minecraft:block
+// 1.20.1	2024-01-01T18:02:26.2968751	KGems/Tags for minecraft:block
 88eafb07888d9d7b0f564f212d87eed1f627c620 data\fabric\tags\blocks\needs_tool_level_4.json
-9be3a11ed0b9ac778faddbdb18a681a81937ff8d data\minecraft\tags\blocks\fences.json
 d52e555ce53a5478f7b1460947812a42bad59718 data\minecraft\tags\blocks\fence_gates.json
+9be3a11ed0b9ac778faddbdb18a681a81937ff8d data\minecraft\tags\blocks\fences.json
 e0105842e119168a727facbbd2c809c011ba8753 data\minecraft\tags\blocks\mineable\pickaxe.json
 92c98ef5a7cb0a3f0e909d0224e99d0610512176 data\minecraft\tags\blocks\needs_iron_tool.json
 75460f037fa807cfd48c9b9ad9e3287a0f132fd2 data\fabric\tags\blocks\needs_tool_level_5.json

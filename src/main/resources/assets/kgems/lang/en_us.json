@@ -41,7 +41,20 @@
   "block.kgems.ruby_door": "Ruby Door",
   "block.kgems.ruby_trapdoor": "Ruby TrapDoor",
 
+  "block.kgems.dahlia": "Dahlia",
+
+  "entity.minecraft.villager.sound_master": "Sound Master",
+
+  "sounds.kgems.metal_detector_found_ore": "Metal Detector Jingle",
+  "kgems.sound_block_break": "Block Broken",
+  "kgems.sound_block_step": "Footsteps",
+  "kgems.sound_block_place": "Block Placed",
+  "kgems.sound_block_hit": "Block Breaking",
+  "kgems.sound_block_fall": "Something Trips",
+
+
   "tooltip.kgems.metal_detector.tooltip": "Finds Valuables Underground",
+
 
   "itemgroup.ruby": "Ruby Group"
 }
