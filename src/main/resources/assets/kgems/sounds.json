@@ -34,5 +34,13 @@
     "sounds": [
       "kgems:sound_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "kgems:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

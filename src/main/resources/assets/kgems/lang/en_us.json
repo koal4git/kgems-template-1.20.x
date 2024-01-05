@@ -43,14 +43,23 @@
 
   "block.kgems.dahlia": "Dahlia",
 
+  "item.kgems.porcupine_spawn_egg": "Porcupine Spawn Egg",
+
+  "item.kgems.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.kgems.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   "entity.minecraft.villager.sound_master": "Sound Master",
 
+  "block.kgems.gem_polishing_station": "Gem Polishing Station",
   "sounds.kgems.metal_detector_found_ore": "Metal Detector Jingle",
   "kgems.sound_block_break": "Block Broken",
   "kgems.sound_block_step": "Footsteps",
   "kgems.sound_block_place": "Block Placed",
   "kgems.sound_block_hit": "Block Breaking",
   "kgems.sound_block_fall": "Something Trips",
+
+
+
 
 
   "tooltip.kgems.metal_detector.tooltip": "Finds Valuables Underground",

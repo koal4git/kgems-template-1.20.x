@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-01T18:02:26.3126865	KGems/Model Definitions
+// 1.20.1	2024-01-02T22:28:46.7367693	KGems/Model Definitions
 edf331012ec83303c0252a7a5144616b951896e4 assets\kgems\models\item\ruby_chestplate_gold_trim.json
 41c5b6de4dbd5425ab9e1bbce8c8534581118223 assets\kgems\models\item\tomato_seeds.json
 ab2e010c9b6006ae9847bf62a568914b58a80742 assets\kgems\models\item\ruby_helmet_gold_trim.json
@@ -43,6 +43,7 @@ bae8ea52f96b2a84b5506c8cc4aea5585ca9ff83 assets\kgems\models\block\ruby_fence_po
 1ba8cf2143e9227db281bf4ad446b0e27aee067a assets\kgems\blockstates\ruby_wall.json
 c68ee1eb13d82e59d85c3e18b86b61e6a6790f34 assets\kgems\models\block\ruby_fence_gate_wall_open.json
 2c1678b370c107eb01cc9c94b071d353170d9776 assets\kgems\models\block\ruby_wall_post.json
+295341c68cd029df9243f30511f565f9e1b5972a assets\kgems\blockstates\gem_polishing_station.json
 59e33490a80743bd706b95077e8ec040730e2165 assets\kgems\models\item\ruby_helmet_diamond_trim.json
 9173eeca49386ae807a8f585798605628f3365a5 assets\kgems\blockstates\ruby_block.json
 c319e746e0ff8c2ab68b0b54a471abee66e72bce assets\kgems\models\item\ruby_chestplate.json
@@ -70,8 +71,8 @@ bff69fbc280e282bb89fa7e7e893a1a19e2ca409 assets\kgems\models\item\ruby_stairs.js
 df5ce656adeb1347e1439c032d3a70ff2cb881f9 assets\kgems\models\item\ruby_boots_netherite_trim.json
 3d0ceade7538ba0601f90ac1f47a58563826fca5 assets\kgems\models\item\ruby_helmet.json
 5dc3e95f5c30d207ebc5019163f44b84cbfd1fab assets\kgems\models\block\ruby_fence_side.json
-28fcd62e5a1a392d812311ba02dfedca90a46470 assets\kgems\blockstates\ruby_fence_gate.json
 1e3ba6276577a65aacdd795251a4bfab66e65252 assets\kgems\blockstates\ruby_button.json
+28fcd62e5a1a392d812311ba02dfedca90a46470 assets\kgems\blockstates\ruby_fence_gate.json
 f71b3cc734ad85d3d9e7d4910715090afa780634 assets\kgems\models\block\dahlia.json
 bd9a1d187397b73e4c0f0d2d63712007be6907fe assets\kgems\models\block\tomato_crop_stage5.json
 693088779935f10d45ef9c980f56a32fcb476ffc assets\kgems\models\item\ruby_chestplate_diamond_trim.json
@@ -83,7 +84,9 @@ ff67ef9f6a61951c059dec2af04f9f23994fc72a assets\kgems\blockstates\dahlia.json
 ea95c039c3ce930141b284d59ca0a7ce545d4340 assets\kgems\models\block\ruby_button.json
 f271235cb12ea2875759ddb1c31f7dbe3fd1d5c0 assets\kgems\models\block\ruby_door_top_left_open.json
 543f905b98586f6bd01da36368c14ff04a89bec1 assets\kgems\models\item\ruby_leggings_diamond_trim.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\kgems\models\item\porcupine_spawn_egg.json
 f100b869b10e9530fadc7273cc14e21f8eeb608c assets\kgems\models\item\ruby_chestplate_quartz_trim.json
+fd11aba1874fba858bfa7f600d49a0e0069d172b assets\kgems\models\item\bar_brawl_music_disc.json
 99a5173add58901414b6fc01c35bac378c343a73 assets\kgems\models\item\ruby_chestplate_netherite_trim.json
 8e1b6241445685aa1f2ce06d8fb5806a87e5648c assets\kgems\models\block\corn_crop_stage0.json
 ff3b442db0fad817b2b818e67281702b579836df assets\kgems\models\item\ruby.json
@@ -114,8 +117,8 @@ a34364bdfd56dc4bbf3dbc3e22d08141181d2326 assets\kgems\models\block\corn_crop_sta
 8e5d0b1e437278977f8683c1a7a26522799494be assets\kgems\models\block\ruby_fence_gate_open.json
 b8ce9e8759f49c0131efe2a4acfc388e86ae43ae assets\kgems\models\item\ruby_chestplate_lapis_trim.json
 9a20e2a1bf4359c0cd9bf3c9f87266ea075f268f assets\kgems\models\item\ruby_helmet_copper_trim.json
-417c958852f1fde461117347d5d4fb09784e7730 assets\kgems\models\item\ruby_leggings_amethyst_trim.json
 c97c75a33e4a6ed70bbfdee12b56c18bf80355e1 assets\kgems\models\item\metal_detector.json
+417c958852f1fde461117347d5d4fb09784e7730 assets\kgems\models\item\ruby_leggings_amethyst_trim.json
 0390f833f798926214a93f20184f5911307f9401 assets\kgems\models\block\corn_crop_stage4.json
 4c547023b81dce35a29f6234c94f330f8e85a488 assets\kgems\models\item\ruby_helmet_amethyst_trim.json
 43539a01c3fdb5862d640530561839d6823c0e40 assets\kgems\blockstates\nether_ruby_ore.json

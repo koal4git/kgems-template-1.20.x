@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.koala.kgems.KGems;
 import net.koala.kgems.block.ModBlocks;
+import net.koala.kgems.entity.ModEntities;
 import net.koala.kgems.item.custom.MetalDetectorItem;
 import net.koala.kgems.item.custom.ModArmorItem;
+import net.koala.kgems.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -52,6 +54,10 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
 
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL,new FabricItemSettings().maxCount(1), 122));
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
     private static void addItemstoIngriedientTab(FabricItemGroupEntries entries) {
         entries.add(RUBY);

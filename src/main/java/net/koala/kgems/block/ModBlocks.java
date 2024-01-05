@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.koala.kgems.KGems;
 import net.koala.kgems.block.custom.CornCropBlock;
+import net.koala.kgems.block.custom.GemPolishingStationBlock;
 import net.koala.kgems.block.custom.SoundBlock;
 import net.koala.kgems.block.custom.TomatoCropBlock;
 import net.koala.kgems.sound.ModSounds;
@@ -70,6 +71,10 @@ public class ModBlocks {
 
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(KGems.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
