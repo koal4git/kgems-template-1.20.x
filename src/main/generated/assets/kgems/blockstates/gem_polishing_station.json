@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kgems:block/gem_polishing_station"
+    }
+  }
+}
