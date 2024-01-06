@@ -1,0 +1,12 @@
+{
+  "type": "kgems:gem_polishing",
+  "ingredients": [
+    {
+      "item": "kgems:raw_ruby"
+    }
+  ],
+  "output": {
+    "item": "kgems:ruby",
+    "count": 3
+  }
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-02T22:28:46.7402578	KGems/Recipes
+// 1.20.1	2024-01-06T00:06:14.6914779	KGems/Recipes
 5e3cf9de55fa46d098dbbbd63deb00674c7747cb data\kgems\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 29e8ddc2349a35acf96c10c4fe04c29c0d8d4fd2 data\kgems\recipes\ruby_fence.json
 289d2e43d6b2c2de20317b1f9b7603f2cf9a8834 data\kgems\advancements\recipes\redstone\ruby_fence_gate.json
@@ -50,6 +50,6 @@ f9ac2378342ed75543d8a687e906289e43fadb16 data\kgems\advancements\recipes\buildin
 a0f678ad3a11b002247b90557c8ab3ea20988872 data\kgems\recipes\ruby_from_blasting_nether_ruby_ore.json
 bcba07503d33a069fc24ca1ba4412acb4944bfc6 data\kgems\recipes\ruby_from_smelting_nether_ruby_ore.json
 020a2a985d730d5e4f2d05e78080a8a480aea423 data\kgems\advancements\recipes\misc\ruby_from_blasting_nether_ruby_ore.json
-cb500a688ee4076a46e650afd56453cf05366df1 data\kgems\recipes\ruby_wall.json
 faaa8e475838c02a1f7df4565c8794b3ffdb88b8 data\kgems\advancements\recipes\tools\ruby_shovel.json
+cb500a688ee4076a46e650afd56453cf05366df1 data\kgems\recipes\ruby_wall.json
 c28e4ebfc26f9b109e1025df8dd7dcd043fce96e data\kgems\advancements\recipes\tools\ruby_hoe.json

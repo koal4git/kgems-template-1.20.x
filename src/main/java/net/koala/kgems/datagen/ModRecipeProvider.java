@@ -74,8 +74,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_WALL, 1)
                 .pattern("   ")
-                .pattern("RRR")
-                .pattern("RRR")
+                .pattern(" RR")
+                .pattern(" RR")
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter);

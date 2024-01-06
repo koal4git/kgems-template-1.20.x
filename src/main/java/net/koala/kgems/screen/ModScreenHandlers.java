@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModScreenHandlers {
     public static final ScreenHandlerType<GemPolishingScreenHandler> GEM_POLISHING_SCREEN_HANDLER =
-            Registry.register(Registries.SCREEN_HANDLER, new Identifier(KGems.MOD_ID, "gem_polshing"),
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(KGems.MOD_ID, "gem_polishing"),
                     new ExtendedScreenHandlerType<>(GemPolishingScreenHandler::new));
 
     public static void registerScreenHandler() {

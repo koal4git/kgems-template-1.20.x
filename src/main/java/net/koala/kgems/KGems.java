@@ -10,6 +10,7 @@ import net.koala.kgems.entity.ModEntities;
 import net.koala.kgems.entity.custom.PorcupineEntity;
 import net.koala.kgems.item.ModItemGroups;
 import net.koala.kgems.item.ModItems;
+import net.koala.kgems.recipe.ModRecipes;
 import net.koala.kgems.screen.ModScreenHandlers;
 import net.koala.kgems.sound.ModSounds;
 import net.koala.kgems.util.ModCustomTrades;
@@ -38,10 +39,13 @@ public class KGems implements ModInitializer {
 
 		ModBlockEntities.RegisterBlockEntities();
 		ModScreenHandlers.registerScreenHandler();
+		ModRecipes.registerRecipes();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 		ModEntities.registerModEntities();
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
+
+
 
 	}
 }

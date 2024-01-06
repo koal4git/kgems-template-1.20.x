@@ -24,7 +24,8 @@ public class GemPolishingScreenHandler extends ScreenHandler {
                 new ArrayPropertyDelegate(2));
     }
 
-    public GemPolishingScreenHandler(int syncId, PlayerInventory playerInventory, BlockEntity blockEntity, PropertyDelegate arrayPropertyDelegate) {
+    public GemPolishingScreenHandler(int syncId, PlayerInventory playerInventory,
+                                     BlockEntity blockEntity, PropertyDelegate arrayPropertyDelegate) {
         super(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, syncId);
         checkSize(((Inventory) blockEntity), 2);
         this.inventory = ((Inventory) blockEntity);
@@ -32,8 +33,8 @@ public class GemPolishingScreenHandler extends ScreenHandler {
         this.propertyDelegate = arrayPropertyDelegate;
         this. blockEntity = ((GemPolishingStationBlockEntity) blockEntity);
 
-        this.addSlot(new Slot(inventory, 1, 88, 11));
-        this.addSlot(new Slot(inventory, 1, 88, 59));
+        this.addSlot(new Slot(inventory, 0, 80, 11));
+        this.addSlot(new Slot(inventory, 1, 80, 59));
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
@@ -77,6 +78,7 @@ public class GemPolishingScreenHandler extends ScreenHandler {
 
         return newStack;
     }
+
     @Override
     public boolean canUse(PlayerEntity player) {
         return this.inventory.canPlayerUse(player);
