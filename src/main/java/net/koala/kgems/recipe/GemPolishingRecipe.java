@@ -2,23 +2,16 @@ package net.koala.kgems.recipe;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.mojang.serialization.Codec;
-import com.mojang.serialization.DataResult;
-import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.inventory.SimpleInventory;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.recipe.*;
 import net.minecraft.registry.DynamicRegistryManager;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.JsonHelper;
 import net.minecraft.util.collection.DefaultedList;
-import net.minecraft.util.dynamic.Codecs;
 import net.minecraft.world.World;
 
-import java.util.List;
 
 public class GemPolishingRecipe implements Recipe<SimpleInventory> {
     private final Identifier id;
@@ -40,7 +33,7 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
             return false;
         }
 
-        return recipeItems.get(0).test(inventory.getStack(1));
+        return recipeItems.get(0).test(inventory.getStack(0));
     }
 
     @Override
@@ -55,12 +48,10 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
     @Override
     public ItemStack getOutput(DynamicRegistryManager registryManager) {
-        return null;
-    }
-
-    public ItemStack getOutput() {
         return output.copy();
     }
+
+
 
     @Override
     public Identifier getId() {
@@ -123,7 +114,7 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
             for (Ingredient ing : recipe.getIngredients()) {
                 ing.write(buf);
             }
-            buf.writeItemStack(recipe.getOutput());
+            buf.writeItemStack(recipe.getOutput(null));
         }
     }
 }

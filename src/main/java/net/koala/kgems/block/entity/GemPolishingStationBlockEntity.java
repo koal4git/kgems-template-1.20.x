@@ -27,6 +27,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
+import static io.netty.util.ResourceLeakDetector.getLevel;
+
 public class GemPolishingStationBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
 
@@ -126,15 +128,6 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements Exten
         this.progress = 0;
     }
 
-    private void craftItem() {
-        Optional<GemPolishingRecipe> recipe = getCurrentRecipe();
-
-        this.removeStack(INPUT_SLOT, 1);
-
-        this.setStack(OUTPUT_SLOT, new ItemStack(recipe.get().getOutput(null).getItem(),
-                getStack(OUTPUT_SLOT).getCount() + recipe.get().getOutput(null).getCount()));
-    }
-
     private boolean hasCraftingFinished() {
         return progress >= maxProgress;
     }
@@ -143,11 +136,25 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements Exten
         progress++;
     }
 
+    private void craftItem() {
+        Optional<GemPolishingRecipe> recipe = getCurrentRecipe();
+        ItemStack result = recipe.get().getOutput(null);
+
+        this.removeStack(INPUT_SLOT, 1);
+
+        this.setStack(OUTPUT_SLOT, new ItemStack(recipe.get().getOutput(null).getItem(),
+                getStack(OUTPUT_SLOT).getCount() + recipe.get().getOutput(null).getCount()));
+    }
+
     private boolean hasRecipe() {
         Optional<GemPolishingRecipe> recipe = getCurrentRecipe();
 
-        return recipe.isPresent() && canInsertAmountIntoOutputSlot(recipe.get().getOutput(null))
-                && canInsertItemIntoOutputSlot(recipe.get().getOutput(null).getItem());
+        if(recipe.isEmpty()) {
+            return false;
+        }
+        ItemStack result = recipe.get().getOutput(getWorld().getRegistryManager());
+
+        return canInsertAmountIntoOutputSlot(result) && canInsertItemIntoOutputSlot(result.getItem());
     }
 
     private Optional<GemPolishingRecipe> getCurrentRecipe() {
