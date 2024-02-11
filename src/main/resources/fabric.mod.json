@@ -24,6 +24,7 @@
 		"fabric-datagen": [
 			"net.koala.kgems.KGemsDataGenerator"
 		]
+
 	},
 	"mixins": [
 		"kgems.mixins.json"

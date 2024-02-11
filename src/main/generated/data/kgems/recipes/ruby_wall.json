@@ -8,8 +8,8 @@
   },
   "pattern": [
     "   ",
-    "RRR",
-    "RRR"
+    " RR",
+    " RR"
   ],
   "result": {
     "item": "kgems:ruby_wall"

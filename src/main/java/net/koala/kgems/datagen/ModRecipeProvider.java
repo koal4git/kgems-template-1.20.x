@@ -112,7 +112,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_SWORD, 1)
                 .pattern(" R ")
-                .pattern(" S ")
+                .pattern(" R ")
                 .pattern(" S ")
                 .input('R', ModItems.RUBY)
                 .input('S', Items.STICK)
@@ -130,6 +130,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_HELMET, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("   ")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_CHESTPLATE, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_LEGGINGS, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_BOOTS, 1)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
     }
 }

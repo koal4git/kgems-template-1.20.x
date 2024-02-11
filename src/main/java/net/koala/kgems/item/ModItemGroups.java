@@ -67,6 +67,17 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
 
                     entries.add(ModBlocks.GEM_POLISHING_STATION);
 
+                    entries.add(ModBlocks.CHESTNUT_LOG);
+                    entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+                    entries.add(ModBlocks.CHESTNUT_WOOD);
+                    entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+
+                    entries.add(ModBlocks.CHESTNUT_PLANKS);
+                    entries.add(ModBlocks.CHESTNUT_LEAVES);
+                    entries.add(ModItems.CHESTNUT_SIGN);
+                    entries.add(ModItems.HANGING_CHESTNUT_SIGN);
+                    entries.add(ModItems.CHESTNUT_BOAT);
+                    entries.add(ModItems.CHESTNUT_CHEST_BOAT);
                 }).build());
 
     public static void registerItemGroups() {

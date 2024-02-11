@@ -1,10 +1,13 @@
 package net.koala.kgems.item;
 
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
+import com.terraformersmc.terraform.boat.impl.item.TerraformBoatItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.koala.kgems.KGems;
 import net.koala.kgems.block.ModBlocks;
+import net.koala.kgems.entity.ModBoats;
 import net.koala.kgems.entity.ModEntities;
 import net.koala.kgems.item.custom.MetalDetectorItem;
 import net.koala.kgems.item.custom.ModArmorItem;
@@ -58,6 +61,16 @@ public class ModItems {
             new MusicDiscItem(7, ModSounds.BAR_BRAWL,new FabricItemSettings().maxCount(1), 122));
     public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
             new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
+
+    public static final Item CHESTNUT_SIGN = registerItem("chestnut_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_CHESTNUT_SIGN, ModBlocks.WALL_CHESTNUT_SIGN));
+    public static final Item HANGING_CHESTNUT_SIGN = registerItem("chestnut_hanging_sign",
+            new HangingSignItem(ModBlocks.HANGING_CHESTNUT_SIGN, ModBlocks.WALL_HANGING_CHESTNUT_SIGN, new FabricItemSettings().maxCount(16)));
+
+    public static final Item CHESTNUT_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.CHESTNUT_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, false);
+    public static final Item CHESTNUT_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.CHESTNUT_CHEST_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, true);
+
+
 
     private static void addItemstoIngriedientTab(FabricItemGroupEntries entries) {
         entries.add(RUBY);

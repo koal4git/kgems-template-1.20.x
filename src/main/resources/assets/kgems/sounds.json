@@ -42,5 +42,10 @@
         "stream": true
       }
     ]
+  },
+  "collapse_rock": {
+    "sounds": [
+      "kgems:collapse_rock"
+    ]
   }
 }
