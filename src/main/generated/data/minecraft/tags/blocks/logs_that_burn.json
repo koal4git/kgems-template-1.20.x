@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kgems:chestnut_log",
+    "kgems:chestnut_wood",
+    "kgems:stripped_chestnut_log",
+    "kgems:stripped_chestnut_wood"
+  ]
+}
