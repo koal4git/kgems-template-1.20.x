@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.koala.kgems.block.ModBlocks;
 import net.koala.kgems.block.entity.ModBlockEntities;
+import net.koala.kgems.datagen.ModWorldGenerator;
 import net.koala.kgems.entity.ModBoats;
 import net.koala.kgems.entity.ModEntities;
 import net.koala.kgems.entity.custom.PorcupineEntity;
@@ -19,6 +20,7 @@ import net.koala.kgems.sound.ModSounds;
 import net.koala.kgems.util.ModCustomTrades;
 import net.koala.kgems.util.ModLootTableModifiers;
 import net.koala.kgems.villager.ModVillagers;
+import net.koala.kgems.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -60,6 +62,7 @@ public class KGems implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LEAVES, 30, 60);
 
 		ModBoats.registerBoats();
+		ModWorldGeneration.generateModWorldGen();
 
 	}
 }

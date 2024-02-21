@@ -9,6 +9,7 @@ import net.koala.kgems.KGems;
 import net.koala.kgems.block.ModBlocks;
 import net.koala.kgems.entity.ModBoats;
 import net.koala.kgems.entity.ModEntities;
+import net.koala.kgems.item.custom.DiceItem;
 import net.koala.kgems.item.custom.MetalDetectorItem;
 import net.koala.kgems.item.custom.ModArmorItem;
 import net.koala.kgems.sound.ModSounds;
@@ -70,7 +71,8 @@ public class ModItems {
     public static final Item CHESTNUT_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.CHESTNUT_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, false);
     public static final Item CHESTNUT_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.CHESTNUT_CHEST_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, true);
 
-
+    public static final Item DICE = registerItem("dice",
+            new DiceItem(new FabricItemSettings()));
 
     private static void addItemstoIngriedientTab(FabricItemGroupEntries entries) {
         entries.add(RUBY);

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "kgems:block/dice_1",
+    "down": "kgems:block/dice_6",
+    "north": "kgems:block/dice_2",
+    "east": "kgems:block/dice_3",
+    "south": "kgems:block/dice_5",
+    "west": "kgems:block/dice_4",
+    "particle": "kgems:block/dice_1"
+  }
+}

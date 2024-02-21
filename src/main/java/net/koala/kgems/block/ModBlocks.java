@@ -3,14 +3,13 @@ package net.koala.kgems.block;
 import com.terraformersmc.terraform.sign.block.TerraformHangingSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformWallHangingSignBlock;
+import com.terraformersmc.terraform.sign.block.TerraformWallSignBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.koala.kgems.KGems;
-import net.koala.kgems.block.custom.CornCropBlock;
-import net.koala.kgems.block.custom.GemPolishingStationBlock;
-import net.koala.kgems.block.custom.SoundBlock;
-import net.koala.kgems.block.custom.TomatoCropBlock;
+import net.koala.kgems.block.custom.*;
 import net.koala.kgems.sound.ModSounds;
+import net.koala.kgems.world.tree.ChestnutSaplingGenerator;
 import net.minecraft.block.*;
 import net.minecraft.data.family.BlockFamilies;
 import net.minecraft.data.family.BlockFamily;
@@ -103,7 +102,7 @@ public class ModBlocks {
     public static final Block STANDING_CHESTNUT_SIGN = Registry.register(Registries.BLOCK, new Identifier(KGems.MOD_ID, "chestnut_standing_sign"),
             new TerraformSignBlock(CHESTNUT_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
     public static final Block WALL_CHESTNUT_SIGN = Registry.register(Registries.BLOCK, new Identifier(KGems.MOD_ID, "chestnut_wall_sign"),
-            new TerraformSignBlock(CHESTNUT_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
+            new TerraformWallSignBlock(CHESTNUT_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
     public static final Block HANGING_CHESTNUT_SIGN = Registry.register(Registries.BLOCK, new Identifier(KGems.MOD_ID, "chestnut_hanging_sign"),
             new TerraformHangingSignBlock(CHESTNUT_HANGING_SIGN_TEXTURE, CHESTNUT_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
     public static final Block WALL_HANGING_CHESTNUT_SIGN = Registry.register(Registries.BLOCK, new Identifier(KGems.MOD_ID, "chestnut_wall_hanging_sign"),
@@ -112,6 +111,12 @@ public class ModBlocks {
     public static final BlockFamily CHESTNUT_FAMILY = BlockFamilies.register(ModBlocks.CHESTNUT_PLANKS)
             .sign(ModBlocks.STANDING_CHESTNUT_SIGN, ModBlocks.WALL_CHESTNUT_SIGN)
             .group("wooden").unlockCriterionName("has_planks").build();
+
+    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(KGems.MOD_ID, "dice_block"),
+            new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
+            new SaplingBlock(new ChestnutSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

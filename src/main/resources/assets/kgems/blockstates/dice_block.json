@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "kgems:block/dice_1"
+    },
+    "number=north": {
+      "model": "kgems:block/dice_2"
+    },
+    "number=east": {
+      "model": "kgems:block/dice_3"
+    },
+    "number=south": {
+      "model": "kgems:block/dice_5"
+    },
+    "number=west": {
+      "model": "kgems:block/dice_4"
+    },
+    "number=down": {
+      "model": "kgems:block/dice_6"
+    }
+  }
+}

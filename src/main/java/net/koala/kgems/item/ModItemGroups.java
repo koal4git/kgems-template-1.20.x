@@ -78,6 +78,9 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModItems.HANGING_CHESTNUT_SIGN);
                     entries.add(ModItems.CHESTNUT_BOAT);
                     entries.add(ModItems.CHESTNUT_CHEST_BOAT);
+
+                    entries.add(ModItems.DICE);
+                    entries.add(ModBlocks.CHESTNUT_SAPLING);
                 }).build());
 
     public static void registerItemGroups() {
