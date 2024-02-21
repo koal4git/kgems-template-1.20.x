@@ -2,6 +2,7 @@ package net.koala.kgems.world;
 
 import net.koala.kgems.KGems;
 import net.koala.kgems.block.ModBlocks;
+import net.koala.kgems.world.tree.custom.ChestnutTrunkPlacer;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.Registry;
@@ -51,7 +52,7 @@ public class ModConfiguredFeatures {
 
         register(context, CHESTNUT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LOG),
-                new StraightTrunkPlacer(5, 4, 3),
+                new ChestnutTrunkPlacer(3, 4, 2),
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
 

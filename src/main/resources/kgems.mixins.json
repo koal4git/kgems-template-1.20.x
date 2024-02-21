@@ -3,7 +3,8 @@
 	"package": "net.koala.kgems.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"TrunkPlacerTypeInvoker"
 	],
 	"client": [
 		"ItemRendererAccessor",

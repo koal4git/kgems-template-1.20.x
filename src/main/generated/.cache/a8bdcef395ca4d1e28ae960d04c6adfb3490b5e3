@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-21T17:13:16.310244	KGems/Block Loot Tables
+// 1.20.1	2024-02-21T17:38:29.8865831	KGems/Block Loot Tables
 5db9e6ef65d4e323ea7d21f624ffd7f1c0674349 data\kgems\loot_tables\blocks\chestnut_log.json
 191ee683d04a94525ddcd116fb9aaf02447c90ba data\kgems\loot_tables\blocks\stripped_chestnut_wood.json
 d72e8e8d34c1bdd4967a7914bebd58ec8583566d data\kgems\loot_tables\blocks\ruby_ore.json
@@ -16,8 +16,8 @@ e407eed6315c316928b246cd3443bcc7b9b9a63a data\kgems\loot_tables\blocks\ruby_bloc
 7b6414693381ae3c4a4f80b16c8edf1213e06e54 data\kgems\loot_tables\blocks\nether_ruby_ore.json
 b7c655d839366d47e9cb3f2c95735e748a90966f data\kgems\loot_tables\blocks\ruby_fence.json
 f2951da3b5d257034ffcd51ddc7b2ae1725a0b03 data\kgems\loot_tables\blocks\ruby_slab.json
-94f04e78e582b1672948d296a82b994adf5edd23 data\kgems\loot_tables\blocks\ruby_door.json
 5754d34ae627f24b867f14b29c59bee7f5583e2f data\kgems\loot_tables\blocks\potted_dahlia.json
+94f04e78e582b1672948d296a82b994adf5edd23 data\kgems\loot_tables\blocks\ruby_door.json
 ed67c19cd499d67af00575f145280398f2c40212 data\kgems\loot_tables\blocks\stripped_chestnut_log.json
 94781aa3a3fb3edc6e82f8f170884f755eca218b data\kgems\loot_tables\blocks\chestnut_leaves.json
 b6a9b07e574e731884b8237cf8bc41821847ed90 data\kgems\loot_tables\blocks\ruby_trapdoor.json

@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-21T17:13:16.3159552	KGems/Recipes
+// 1.20.1	2024-02-21T17:38:29.8978503	KGems/Recipes
 5e3cf9de55fa46d098dbbbd63deb00674c7747cb data\kgems\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 29e8ddc2349a35acf96c10c4fe04c29c0d8d4fd2 data\kgems\recipes\ruby_fence.json
 289d2e43d6b2c2de20317b1f9b7603f2cf9a8834 data\kgems\advancements\recipes\redstone\ruby_fence_gate.json
@@ -10,8 +10,8 @@ d6c55a38fd8f608058fb376fd7598257a2547e3c data\kgems\advancements\recipes\misc\ru
 7b2fc8ef55d54411fa08a8c11e0cd32d6aab24f8 data\kgems\recipes\ruby_sword.json
 0bb16856f02f5550805a257893ac56d5ea73f46e data\kgems\advancements\recipes\combat\ruby_boots.json
 b4aa839231760c2db9f1a18bcb9de6c8485b7ebc data\kgems\recipes\ruby_from_smelting_deepslate_ruby_ore.json
-03294bb7056f79af1ab921e49dfdac172688a273 data\kgems\recipes\ruby_button.json
 6434e3ebea6af04c819d65957cc7cab87e431a0c data\kgems\advancements\recipes\misc\ruby_ore.json
+03294bb7056f79af1ab921e49dfdac172688a273 data\kgems\recipes\ruby_button.json
 e08d2f8469bc0c718c7dadff42aeb30076723fed data\kgems\recipes\ruby_stairs.json
 b74bcd7e553f1d086f9effe9009a9d3dbd35621a data\kgems\recipes\ruby.json
 f1d3ab9bf252203ba73e5e7a78c0b764f059db5e data\kgems\recipes\ruby_from_blasting_raw_ruby.json
@@ -60,6 +60,6 @@ f9ac2378342ed75543d8a687e906289e43fadb16 data\kgems\advancements\recipes\buildin
 a0f678ad3a11b002247b90557c8ab3ea20988872 data\kgems\recipes\ruby_from_blasting_nether_ruby_ore.json
 bcba07503d33a069fc24ca1ba4412acb4944bfc6 data\kgems\recipes\ruby_from_smelting_nether_ruby_ore.json
 020a2a985d730d5e4f2d05e78080a8a480aea423 data\kgems\advancements\recipes\misc\ruby_from_blasting_nether_ruby_ore.json
-faaa8e475838c02a1f7df4565c8794b3ffdb88b8 data\kgems\advancements\recipes\tools\ruby_shovel.json
 d105c218c23d1e4d2339b5c620df6b90df010658 data\kgems\recipes\ruby_wall.json
+faaa8e475838c02a1f7df4565c8794b3ffdb88b8 data\kgems\advancements\recipes\tools\ruby_shovel.json
 c28e4ebfc26f9b109e1025df8dd7dcd043fce96e data\kgems\advancements\recipes\tools\ruby_hoe.json
