@@ -45,6 +45,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter);
 
+
+
         createStairsRecipe(ModBlocks.RUBY_STAIRS, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter);
@@ -158,5 +160,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHESTNUT_PLANKS, 4)
+                .input(ModBlocks.CHESTNUT_LOG)
+                .criterion(hasItem(ModBlocks.CHESTNUT_LOG), conditionsFromItem(ModBlocks.CHESTNUT_LOG))
+                .offerTo(exporter);
+
     }
 }

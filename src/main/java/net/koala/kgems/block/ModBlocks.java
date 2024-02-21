@@ -81,19 +81,19 @@ public class ModBlocks {
 
 
     public static final Block CHESTNUT_LOG = registerBlock("chestnut_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
     public static final Block CHESTNUT_WOOD = registerBlock("chestnut_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
     public static final Block STRIPPED_CHESTNUT_LOG = registerBlock("stripped_chestnut_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
     public static final Block STRIPPED_CHESTNUT_WOOD = registerBlock("stripped_chestnut_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
 
 
     public static final Block CHESTNUT_PLANKS = registerBlock("chestnut_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
 
     public static final Identifier CHESTNUT_SIGN_TEXTURE = new Identifier(KGems.MOD_ID,"entity/signs/chestnut");
     public static final Identifier CHESTNUT_HANGING_SIGN_TEXTURE = new Identifier(KGems.MOD_ID,"entity/signs/hanging/chestnut");
