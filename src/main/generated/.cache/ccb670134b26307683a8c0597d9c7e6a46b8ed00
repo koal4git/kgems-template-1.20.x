@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-25T06:19:52.4090374	KGems/Recipes
+// 1.20.1	2024-02-25T07:04:36.3998239	KGems/Recipes
 5e3cf9de55fa46d098dbbbd63deb00674c7747cb data\kgems\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 29e8ddc2349a35acf96c10c4fe04c29c0d8d4fd2 data\kgems\recipes\ruby_fence.json
 289d2e43d6b2c2de20317b1f9b7603f2cf9a8834 data\kgems\advancements\recipes\redstone\ruby_fence_gate.json
@@ -22,14 +22,14 @@ c40b4dc9d86b6663da0385980a3616ad9b8957aa data\kgems\recipes\ruby_leggings.json
 e183ba0e30432fbb8557b0c8ec2e4feecd7eceeb data\kgems\advancements\recipes\combat\ruby_sword.json
 bb235a787efba0ecc025a65b8cfda242d676c8bc data\kgems\recipes\ruby_boots.json
 5f63a1ecf8c9d1541ca07bf98fb8584e96a6a3f6 data\kgems\recipes\ruby_from_smelting_end_stone_ruby_ore.json
-5617f3a3ad34cf4e3a343d0b7ef3a0dbabca0bc6 data\kgems\recipes\ruby_block.json
 1205af79270fb34ec9c89a44c62b3b093294f5e4 data\kgems\advancements\recipes\misc\ruby_from_smelting_ruby_ore.json
+5617f3a3ad34cf4e3a343d0b7ef3a0dbabca0bc6 data\kgems\recipes\ruby_block.json
 b066d19851e1af39488141e7a5e65cd982ae1f37 data\kgems\advancements\recipes\building_blocks\ruby_pressure_plate.json
 0128b4ec966f8326684493358ff5f3b42189d779 data\kgems\recipes\chestnut_planks.json
 cd5a855d990d6be2f2a0796c7c7219c51057f88f data\kgems\advancements\recipes\redstone\ruby_door.json
 37fd78a18d16c3bdaebd35b4239a70ccf6b56bc1 data\kgems\recipes\ruby_shovel.json
-1edbb04c494c027fb16cfb4d11dd3cb368c2dbb1 data\kgems\advancements\recipes\building_blocks\ruby_wall.json
 9456f9055cbea27cf7538dad42bb98e64c7849be data\kgems\recipes\ruby_door.json
+1edbb04c494c027fb16cfb4d11dd3cb368c2dbb1 data\kgems\advancements\recipes\building_blocks\ruby_wall.json
 8db8fb024d87519f47af74425bc1d0cd04621114 data\kgems\advancements\recipes\combat\ruby_leggings.json
 e67b2fcbb7ed8867641191f967bf6d3c8f5790e8 data\kgems\recipes\ruby_from_blasting_deepslate_ruby_ore.json
 0f0201c2e0f63bd40f57a2183700f451f6c55594 data\kgems\advancements\recipes\tools\ruby_pickaxe.json

@@ -23,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.koala.kgems.KGemsDataGenerator"
+		],
+		"terrablender": [
+			"net.koala.kgems.world.biome.ModTerrablenderAPI"
 		]
 
 	},
