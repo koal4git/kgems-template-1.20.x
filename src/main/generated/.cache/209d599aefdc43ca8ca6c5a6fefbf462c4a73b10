@@ -1,9 +1,9 @@
-// 1.20.1	2024-02-21T17:38:29.8991707	KGems/World Gen
+// 1.20.1	2024-02-25T06:19:52.4100392	KGems/World Gen
 58b41e28411a6db7d65e82fc10f005a93f35a4fd data\kgems\worldgen\placed_feature\end_ruby_ore_placed.json
 86c3482a703448cfd3bbbae3fa8fa270001d01f1 data\kgems\worldgen\placed_feature\nether_ruby_ore_placed.json
 fda45b1ec7ede6803ee5171052683abd5f53a5a7 data\kgems\worldgen\configured_feature\nether_ruby_ore.json
 da77fb8f8857d5e60b0d4b5d3fbd4b26943afea2 data\kgems\worldgen\configured_feature\end_ruby_ore.json
-1deceb9ffdd9777536e857d22b22d5b3f68f0a27 data\kgems\worldgen\configured_feature\chestnut_key.json
+6e14974f5ab09d1e6872e6a8656cb8a698f599a8 data\kgems\worldgen\configured_feature\chestnut_key.json
 a298d7182a089657c9de7edc14c242b14e993e5e data\kgems\worldgen\placed_feature\ruby_ore_placed.json
 b9e0839be4b36847be2ce1a6d441daab5ab5e5a3 data\kgems\worldgen\placed_feature\chestnut_placed.json
 a101129dfdf64bb6ee99d2b770103c377633dfec data\kgems\worldgen\configured_feature\ruby_ore.json

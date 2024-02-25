@@ -46,25 +46,25 @@ public class ChestnutTrunkPlacer extends TrunkPlacer {
                 if(random.nextFloat() > 0.25f) {
                     for(int x = 1; x <= 4; x++) {
                         replacer.accept(startPos.up(i).offset(Direction.NORTH, x), (BlockState) Function.identity().apply(config.trunkProvider
-                                .get(random, startPos.up(i).offset(Direction.NORTH, x)).with(PillarBlock.AXIS, Direction.Axis.Z)));
-                    }
-                }
-                if(random.nextFloat() > 0.25f) {
-                    for(int x = 1; x <= 4; x++) {
-                        replacer.accept(startPos.up(i).offset(Direction.SOUTH, x), (BlockState) Function.identity().apply(config.trunkProvider
                                 .get(random, startPos.up(i).offset(Direction.SOUTH, x)).with(PillarBlock.AXIS, Direction.Axis.Z)));
                     }
                 }
                 if(random.nextFloat() > 0.25f) {
                     for(int x = 1; x <= 4; x++) {
+                        replacer.accept(startPos.up(i).offset(Direction.SOUTH, x), (BlockState) Function.identity().apply(config.trunkProvider
+                                .get(random, startPos.up(i).offset(Direction.NORTH, x)).with(PillarBlock.AXIS, Direction.Axis.Z)));
+                    }
+                }
+                if(random.nextFloat() > 0.25f) {
+                    for(int x = 1; x <= 4; x++) {
                         replacer.accept(startPos.up(i).offset(Direction.EAST, x), (BlockState) Function.identity().apply(config.trunkProvider
-                                .get(random, startPos.up(i).offset(Direction.EAST, x)).with(PillarBlock.AXIS, Direction.Axis.X)));
+                                .get(random, startPos.up(i).offset(Direction.WEST, x)).with(PillarBlock.AXIS, Direction.Axis.X)));
                     }
                 }
                 if(random.nextFloat() > 0.25f) {
                     for(int x = 1; x <= 4; x++) {
                         replacer.accept(startPos.up(i).offset(Direction.WEST, x), (BlockState) Function.identity().apply(config.trunkProvider
-                                .get(random, startPos.up(i).offset(Direction.WEST, x)).with(PillarBlock.AXIS, Direction.Axis.X)));
+                                .get(random, startPos.up(i).offset(Direction.EAST, x)).with(PillarBlock.AXIS, Direction.Axis.X)));
                     }
                 }
             }

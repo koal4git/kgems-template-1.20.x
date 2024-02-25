@@ -21,6 +21,7 @@ import net.koala.kgems.util.ModCustomTrades;
 import net.koala.kgems.util.ModLootTableModifiers;
 import net.koala.kgems.villager.ModVillagers;
 import net.koala.kgems.world.gen.ModWorldGeneration;
+import net.koala.kgems.world.tree.ModFoliagePlacerTypes;
 import net.koala.kgems.world.tree.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -65,6 +66,7 @@ public class KGems implements ModInitializer {
 		ModBoats.registerBoats();
 		ModWorldGeneration.generateModWorldGen();
 		ModTrunkPlacerTypes.register();
+		ModFoliagePlacerTypes.register();
 
 	}
 }

@@ -1,11 +1,11 @@
-// 1.20.1	2024-02-21T17:38:29.8978503	KGems/Recipes
+// 1.20.1	2024-02-25T06:19:52.4090374	KGems/Recipes
 5e3cf9de55fa46d098dbbbd63deb00674c7747cb data\kgems\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 29e8ddc2349a35acf96c10c4fe04c29c0d8d4fd2 data\kgems\recipes\ruby_fence.json
 289d2e43d6b2c2de20317b1f9b7603f2cf9a8834 data\kgems\advancements\recipes\redstone\ruby_fence_gate.json
 d6c55a38fd8f608058fb376fd7598257a2547e3c data\kgems\advancements\recipes\misc\ruby_from_blasting_end_stone_ruby_ore.json
 8f909ae6068bb015530eb16985beb748d9f95beb data\kgems\recipes\ruby_fence_gate.json
-8945aa24d809ffb62c93c561a6e0433e18cf3e0d data\kgems\advancements\recipes\combat\ruby_chestplate.json
 4f895f6831bc74b0ca5417608f83ca7cf6389baf data\kgems\advancements\recipes\combat\ruby_helmet.json
+8945aa24d809ffb62c93c561a6e0433e18cf3e0d data\kgems\advancements\recipes\combat\ruby_chestplate.json
 4b35d36505c21c84d64dfa79b8764253bd52fd78 data\kgems\recipes\ruby_from_blasting_end_stone_ruby_ore.json
 7b2fc8ef55d54411fa08a8c11e0cd32d6aab24f8 data\kgems\recipes\ruby_sword.json
 0bb16856f02f5550805a257893ac56d5ea73f46e data\kgems\advancements\recipes\combat\ruby_boots.json
